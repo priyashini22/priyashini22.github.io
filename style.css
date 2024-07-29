@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(235, 214, 183);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, section {
+    padding: 20px;
+}
+
+header {
+    background-color: #050505;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.container img {
+    max-width: 25%;
+    height: auto;
+}
+.container p {
+    flex: 2;
+    padding: 50px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000; 
+  }
+  
+ .navi li {
+    float: right;
+  }
+  
+ .navi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) 
+  {
+    background-color: grey;
+  }
+  #home {
+            display: flex;
+            justify-content: space-between;
+        }
+        #lefttext, #righttext {
+            width: 45%;
+            text-align: center;
+            font-weight: 600;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            margin-top: 7%;
+        }
+        #lefttext {
+            float: left;
+            padding-left: 20%;
+        }
+        #righttext {
+            float: right;
+            padding-right: 20%;
+        }
+        #rightpara {
+            float: left;
+        }
+        #skills {
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: space-around;
+        }
+        .column {
+            flex: 1;
+            padding: 5px;
+            text-align: center;
+        }
+        .column img {
+            width: 100%;
+            height: auto;
+        }
+
+        #projects {
+            box-sizing: border-box;
+            padding: 20px;
+        }
+
+        .project__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .project__card {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .project__card h4 {
+            margin-top: 10;
+        }
+
+        .project__card ol {
+            margin: 100;
+        }
